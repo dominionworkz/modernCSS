@@ -6,30 +6,43 @@ body {
     min-height: 100vh;
   }
   
-  footer {
+  main {
     align-self: center;
-    border: solid 0.1em rgb(165, 165, 165);
-    border-radius: 0.5em;
+    background-color: rgb(12, 12, 28);
+    border: solid 0.01em rgb(165, 165, 165);
+    border-radius: 0.5em 0.5em 0 0;
     color: rgb(165, 165, 165);
-    margin-top: auto;
+    margin-top: 4em;
     max-width: 1000px;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(12, 12, 28);
+    border: solid 0.01em rgb(165, 165, 165);
+    border-radius: 0 0 0.5em 0.5em;
+    color: rgb(165, 165, 165);
+    margin-top: 0.5em;
+    max-width: 1000px;
+    padding: 2em;
     text-align: center;
   }
 
-  footer > a {
+  .footCopyright {
     color: rgb(165, 165, 165);
     font-size: 0.75rem;
     text-decoration: none;
   }
   
-  main {
-    align-self: center;
-    border: solid 0.1em rgb(165, 165, 165);
-    border-radius: 0.5em;
+  .footMenu a {
     color: rgb(165, 165, 165);
-    margin-top: 5em;
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 2em;
-    text-align: center;
+    font-size: 0.75rem;
+    text-decoration: none;
+    margin-left: 1em;
   }
+
+  
+  
