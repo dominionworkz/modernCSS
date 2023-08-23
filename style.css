@@ -231,7 +231,7 @@ body {
       /* Adjust background properties for tablets */
     }
   }
-
+  
   @media (min-width: 801px) and (max-width: 1200px) {
     section {
       background-image: url(images/197281.jpg);
